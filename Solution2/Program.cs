@@ -1,4 +1,6 @@
-﻿int size = ReadData1("Сколько строк вы хотите ввести?");
+﻿// Альтернативное решение задачи (с одним проходом по исходному массиву)
+
+int size = ReadData1("Сколько строк вы хотите ввести?");
 string[] arr = GenArray(size);
 int symbols = 3;
 Console.Write("Новый массив: ");
@@ -48,3 +50,4 @@ void PrintArray(string[] arr, int s)
     }
     Console.Write("]");
 }
+
